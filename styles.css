@@ -1,0 +1,14 @@
+body { font-family: Arial, sans-serif; padding: 16px; }
+.table-wrapper { overflow:auto; max-width:100%; }
+.table { border-collapse: collapse; }
+.table td, .table th {
+  border: 1px solid #ccc;
+  padding: 6px 8px;
+  min-width: 120px;
+}
+.controls { margin-bottom: 12px; display:flex; gap:8px; flex-wrap:wrap; }
+.cell-input { width:100%; box-sizing:border-box; border: none; outline: none; padding: 6px; background: transparent; }
+.row-controls, .col-controls { display:flex; gap:6px; align-items:center; }
+.btn { padding:6px 10px; cursor:pointer; border-radius:6px; border:1px solid #888; background:#f6f6f6; }
+.btn-danger { background:#fee; border-color:#f88; }
+.small { font-size:12px; padding:4px 8px; }
